@@ -26,6 +26,20 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

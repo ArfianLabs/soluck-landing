@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "soluck-turquoise": "#01E1E9",
+      },
+      dropShadow: {
+        glow: [
+          "0 0px 60px rgba(1,255, 233, 1)",
+          "0 0px 95px rgba(1, 225,233,1)",
+        ],
+      },
     },
   },
   plugins: [],
