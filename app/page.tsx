@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between py-16">
       <div className="flex items-center">
-        <p className="text-[50px]">Coming Soon to Bonkathon</p>
+        <p className="text-[50px] text-white">Coming Soon to Bonkathon</p>
       </div>
 
       <div className="flex-1 flex items-center justify-center">
